@@ -18,7 +18,7 @@ def calculate_average(numbers):
         return None
     for number in numbers:
         if not isinstance(number, (int, float)):
-            print(f"В {number} записан некорректный тип данных")
+            print(f"Некорректный тип данных - {number}")
 
         else:
             count +=1
